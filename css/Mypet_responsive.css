@@ -1,0 +1,157 @@
+header{
+    display: flex;
+    background-color: #80a166;
+    align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+nav{
+    display: flex;
+    /* background-color: rgb(226, 93, 138); */
+    width: 85%;
+ margin: auto;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.text-h1{
+color: rgb(2, 2, 2);
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+nav ul li{
+    margin-right: 1.85rem;
+   
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo img{
+   
+   margin-right: 0.5rem;
+} 
+/* responsive navbar */
+@media only screen and (max-width: 480px) {
+    nav{
+       flex-direction: column;
+      align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+    text-align: center;
+}
+
+}
+
+
+
+/* mypet content */
+.mypet-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    box-shadow: 0px 0px 3px 3px rgb(71, 234, 255);
+/* background-color: #ffffff;    */
+margin: 30px 10px;
+
+border-radius: 10px;
+
+background: #6ebfd3;
+}
+
+.image{
+    width: 100%;
+    border-radius:10px 10px 0px 0px ;
+    }
+
+.text-content{
+    padding: 15px;
+}
+/* social */
+.boxs{
+    
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: #80a166;
+  
+  height: 250pX;
+  margin-top: 30px;
+  text-align: center;
+}
+.icon{
+    background-color: rgb(220, 148, 226);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+
+
+
+
+/* responsive mypet */
+@media only screen and (max-width: 768px) {
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+
+/* hero section */
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url('https://helios-i.mashable.com/imagery/articles/05D96WVVU7qZK9KmE8nAwYJ/hero-image.fill.size_1248x702.v1656647532.jpg');
+    
+   height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-hero{
+    margin: 0;
+    color: rgb(118, 209, 13);
+  font-size: 60px;
+}
+
+
+/* footer */
+footer{
+    background-color: #80a166;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+}
+
+
