@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
-    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="css/custom.css">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark my-bg" style="background-color: rgb(11, 148, 148);">
+    <nav class="navbar navbar-expand-sm navbar-dark my-bg" style="background-color: #286c6c;">
         <div class="container">
-            <img src="images/R4.png" alt=""class="mx-3">
+          <i class="fa-brands fa-html5 fa-2xl" style="color: #FFD43B;"></i>
+            <!-- <img src="images/R4.png" alt=""class="mx-3"> -->
+            
           <a class="navbar-brand " href="#">My Dolphin</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -73,6 +77,45 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
+      </div>
+
+<!-- social Section -->
+
+      <div class=bg-info>
+        <div class="row">
+          
+          <div class="col-sm-3">
+            <div class="my-circle d-flex flex-column align-items-center pt-3">
+              <!-- <img width="50" height="50" src="https://img.icons8.com/ios/50/facebook--v1.png" alt="facebook--v1"/> -->
+              <i class="fa-brands fa-facebook-f fa-2xl" style="color: #B197FC; padding: 20px;"></i>
+            <p>Facebook</p>
+            </div>
+          </div>
+          
+          <div class="col-sm-3 ">
+            <div class="my-circle d-flex flex-column align-items-center pt-3">
+            <!-- <img width="50" height="50" src="https://img.icons8.com/ios/50/line-me.png" alt="line-me"/> -->
+            <i class="fa-brands fa-line fa-spin fa-2xl" style="color: #63E6BE; padding: 20px;"></i>
+            <p>Line</p>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            <div class="my-circle d-flex flex-column align-items-center pt-3">
+              <!-- <img width="50" height="50" src="https://img.icons8.com/ios/50/instagram-new.png" alt="instagram-new"/> -->
+              <i class="fa-brands fa-instagram fa-bounce fa-2xl" style="color: #ea0ced; padding: 20px;"></i>
+              <p>Instagram</p>
+            </div>
+          </div>
+          
+          <div class="col-sm-3">
+            <div class="my-circle d-flex flex-column align-items-center pt-3">
+            <!-- <img width="50" height="50" src="https://img.icons8.com/ios/50/tiktok--v1.png" alt="tiktok--v1"/> -->
+            <i class="fa-brands fa-tiktok fa-shake fa-2xl" style="color: #2359d7; padding: 20px;"></i>
+            <p>TikTok</p>
+          </div>
+          </div>
+        </div>
       </div>
     
 
@@ -140,6 +183,63 @@
           
           </main>
 
+          <!-- table section -->
+
+          <section class="members">
+            <div class="members-box">
+                <h1 class="text-h1">member</h1>
+                <p class="text-param">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos voluptate, consequatur illo amet perferendis nulla delectus quaerat ratione placeat perspiciatis? Ab sapiente aperiam dicta assumenda dignissimos saepe laudantium, dolore perspiciatis.
+                </p>
+                <br>
+                <table class="table table-striped table-bordered table-hover">
+                    <tr>
+                        <th>#</th>
+                        <th>name</th>
+                        <th>position</th>
+                        <th>age</th>
+                        <th>start date</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>patcharapong titivanich</td>
+                        <td>programer</td>
+                        <td>20</td>
+                        <td>2021-01-05</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>somchai jaidee</td>
+                        <td>dakdee</td>
+                        <td>49</td>
+                        <td>2015-06-01</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>jaidee makmak</td>
+                        <td>ui design</td>
+                        <td>35</td>
+                        <td>2012-05-29</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>sommak makme</td>
+                        <td>deverloper</td>
+                        <td>90</td>
+                        <td>2000-01-01</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>ying makmak</td>
+                        <td>deverloper</td>
+                        <td>60</td>
+                        <td>2000-05-01</td>
+                    </tr>
+                </table>
+            </div>
+            
+        </section>
+
 
 
 <!-- ---------------------------------card----------------------------- -->
@@ -147,7 +247,9 @@
           <footer class="text-muted py-5">
             <div class="container">
               <p class="float-end mb-1">
-                <a href="016_01_home.html">Back to Home</a>
+                <button class="btn btn-success">
+                <a href="#" class="text-light">Back to top</a>
+                </button>
               </p>
               <p class="mb-1">Copyright by Patcharapong. IT.</p>
               <p class="mb-0"> Nakhon Pathom Rajabhat</p>
